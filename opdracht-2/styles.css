@@ -4,50 +4,68 @@
 
 /* Schrijf hier  jouw CSS! */
 
+/* Opdracht 2.1*/
+
 .one {
     display: flex;
     flex-direction: column;
     justify-content: end;
 }
 
+/* Opdracht 2.2*/
+
 .two {
     display: flex;
     flex-direction: row;
-    column-gap: 800px;
+    justify-content: flex-start;
+    align-content: space-between;
+    column-gap: 900px;
+}
+
+/* Opdracht 2.3*/
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 300px;
 }
 
 .three {
     display: flex;
     flex-direction: row;
-    align-content: space-between;
-    list-style: none;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.form {
+.edhub {
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* Opdracht 2.4*/
+
+form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: end;
 }
 
-#username {
-    display: flex;
-    flex-direction: row;
-}
-
-#password {
-    display: flex;
-    flex-direction: row;
-}
+/* Opdracht 2.5*/
 
 .five {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
-
 }
 
 article {
-    flex-basis: 400px;
-    flex-shrink: 1;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 360px;
 }
